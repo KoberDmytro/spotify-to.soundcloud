@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify to SoundCloud Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Конвертер плейлистов: Spotify → SoundCloud</h1>
+    <p>Вставь ссылку на свой открытый плейлист Spotify:</p>
+    <!-- Кнопка авторизации -->
+    <button id="login-btn">Войти через Spotify</button>
+    <input
+      type="text"
+      id="playlistInput"
+      placeholder="https://open.spotify.com/playlist/..."
+    />
+    <button id="convertBtn">Импортировать</button>
+
+    <div id="trackList" class="track-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
