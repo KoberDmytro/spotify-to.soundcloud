@@ -39,6 +39,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
     trackList.appendChild(trackDiv);
   });
 });
+
 // Проверка, есть ли access_token в URL
 window.addEventListener('load', () => {
   const hash = window.location.hash;
